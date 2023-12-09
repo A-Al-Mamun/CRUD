@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{}
+/* Header Section */
+header{
+    width: 100%;
+    padding: 20px 0;
+    background: forestgreen;
+}
+nav{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding-right:50px;
+    transition: 0.4s;
+}
+nav a:hover{
+    color: #ddd;
+}
+/* Header Section */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.main-menu{
+    margin-bottom: 20px;
+}
+.main-menu a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.emp-table{
+    display: block;
+}
+.emp-table table{}
+.emp-table table thead{  
+    background: blueviolet;
+}
+.emp-table table thead td{
+    color: #fff;
+    padding: 10px 20px;
+} 
+
+.emp-table table tbody{
+    background: rgba(137, 43, 226, 0.151);
+}
+.emp-table table tbody tr td{
+    color: #000;
+    padding: 10px;
+} 
+
+
+
+.pro-table{
+    display: none;
+}
+.pro-table table{
+    
+}
+.pro-table table thead{
+    background: rgb(43, 226, 104);
+}
+.pro-table table thead td{
+    color: #fff;
+    padding: 10px 20px;
+} 
+
+.pro-table table tbody{
+    background: rgba(43, 226, 104, 0.158);
+}
+.pro-table table tbody tr td{
+    color: #000;
+    padding: 10px 20px;
+} 
+
+
+/* ADD Section Start */
+.emp-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.emp-form h3{}
+.emp-form form{}
+.emp-form form label,
+input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.emp-form form input[type=submit]{
+    background: red;
+    border: 0;
+    width: 100px;
+}
+
+
+.pro-form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: none;
+}
+.pro-form h3{}
+.pro-form form{}
+.pro-form form label,
+input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.pro-form form input[type=submit]{
+    background: greenyellow;
+    border: 0;
+    width: 100px;
+}
+/* ADD Section End */
+
+
+/* Edit Form  Section Start */
+.emp-edit-form,
+.pro-edit-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.emp-edit-form h3{}
+.emp-edit-form form{}
+.emp-edit-form label,
+input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.emp-edit-form form input[type=submit]{
+    background: red;
+    border: 0;
+    width: 100px;
+}
+
+
+.pro-edit-form h3{}
+.pro-edit-form form{}
+.pro-edit-form label,
+input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.pro-edit-form form input[type=submit]{
+    background: rgb(9, 255, 0);
+    border: 0;
+    width: 100px;
+}
+
+/* Edit Form Section End */
